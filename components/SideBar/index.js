@@ -54,7 +54,7 @@ export function SideBar(props){
     return(
         <div className={styles.container}>
             <div className={styles.boxLogo}> 
-                <img src="LogoPet.svg" alt="Logo do PET" />
+                <img src="logoPet.svg" alt="Logo do PET" />
             </div>
             
             <div className={styles.buttons}>

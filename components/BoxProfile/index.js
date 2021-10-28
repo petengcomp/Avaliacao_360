@@ -80,9 +80,9 @@ export function BoxProfile(props){
             <div className={styles.content}>
                 <div className={styles.dates}>
                     {isLoadingButtons?
-                        buttons?.map(() => { 
+                        buttons?.map((button) => { 
                             return (
-                                <div key={buttons} className={styles.buttonLoading}>
+                                <div key={button} className={styles.buttonLoading}>
                                     <ReactLoading type="spin" color='#FFF' height={32} width={32} />
                                 </div>
                             )

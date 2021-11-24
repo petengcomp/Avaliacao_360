@@ -61,7 +61,7 @@ export function SideBar(props){
                 <ButtonSideBar disabled={avaliacao} onClick={handleButtonAvaliations} icon="iconAvaliacao" ativado={`${avaliacao}`}/>
                 <ButtonSideBar disabled={perfil} onClick={handleButtonProfile} icon="iconPerfil" ativado={`${perfil}`}/>
                 {
-                    session?.user?.name === 'Bruno Angeloti Pires' && (
+                    session?.user?.name === 'Andre Louis Souza Ribeiro' && (
                         <ButtonSideBar disabled={adm} onClick={handleButtonAdm} icon="iconAdm" ativado={`${adm}`}/>
                     )
                 }

@@ -59,10 +59,9 @@ export function BoxProfile(props){
                 .then(async(res) => {
                     if(res.status === 200){
                         const response = await res.json();
-                        console.log(response.data)
                         setDates(response.data);
                     }else{
-                        alert('ERRO INESPERADO')
+                        alert('Sem Avaliações no Momento!');
                     }
                     setIsLoadingButtons(false)
                 })  

@@ -174,7 +174,7 @@ export function BoxProfile(props){
                                             <p>{avaliations.pergunta13}</p>   
                                         </div>  
                                     </div>                              
-                                </div>
+                             </div>
                         )}
                     </div>
                 </div>
